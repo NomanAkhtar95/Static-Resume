@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class = "resume-container">
+        <!-- left section -->
+         <div class="left-section">
+            <img src="pic 3.jpg" alt="Profile Picture" class="profile-picture">
+            <!-- for career and objective we use "section", we use "id" for specific access, -->
+             <section id="objective">
+                <h3 style="color: aliceblue;">Career Objective</h3>
+                <p style="text-align: justify; hyphens: auto;">
+                    To achieve a challenging position in your organization that will enable utilization of my educational skills in order to create mutual benefits and to develop my career.
+                </p>
+             </section>
+             <section id="certification">
+                <h3 style="color: aliceblue;">Certification</h3>
+                <p>
+             <b>Mining Challenges in Thar Coal Mines</b><br>
+             Department of Geology, University of Karachi
+                </p>
+                <p><b>Artificial Intelligence, Web 3.0 & Metaverse:</b><br>
+                From Governor House Karachi (ongoing)</p>
+             </section>
+             <section id="language">
+                <h3 style="color: aliceblue;">Language</h3>
+                <ul style="text-align:left;">
+                <li>English</li>
+                <li>Urdu</li>
+                </ul>
+             </section>
+         </div>
+         <div>
+            <!-- Right section -->
+             <div class="right-section">
+                <h1>Static Interactive Resume</h1>
+                <!-- personal information -->
+                 <section id="personal-info">
+                    <h3>Personal Information</h3>
+                    <p>Name:<br>Noman Akhtar</p>
+                    <p>Contact:<br>0310-2833835</p>
+                    <p>Email:<br><a href="mailto:nomanakhtar222@gmail.com">nomanakhtar222@gmail.com</a></p>
+                    <p>LinkedIn:<br><a href="https://www.linkedin.com/in/noman-akhtar-826840166" target="_blank">www.LinkedIn.com</a></p>
+                </section>
+
+                <!-- Education -->
+                 <section id="education">
+                    <h3>Education</h3>
+                    <p><b>Masters:</b><br>M.Sc Geology from University of Karachi (2018)</p>
+                    <p><b>Bachelors:</b><br>B.Sc Geography from University of Karachi (2016)</p>
+                    <p><b>Intermediate:</b><br>H.S.C Pre-Engineering from Govt. Jinnah College Nazimabad (2014)</p>
+                    <p><b>Matriculation:</b><br>S.S.C Science from Salma Public Sec. School (2012)</p>
+                    
+                 </section>
+
+                 <!-- Skills -->
+                  <section id="skills">
+                    <h3>Skills</h3>
+                    <!-- why we use "ul", it is for listing just like bullet points -->
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>TypeScript</li>
+                        <li>MS Word</li>
+                        
+                    </ul>
+                  </section>
+                  <!-- Work Experience -->
+                   <section id="work-experience">
+                    <h3>Work Experience</h3>
+                    <p><b>Company:</b> SAMI Pharmaceuticals Pvt Ltd.</p>
+                    <p><b>Role:</b> Medical Sales Officer (2019-Ongoing)</p>
+                   </section>
+
+                   <!-- Button to Show Skills -->
+                    <button id="toggle-skills"><b>Hide/Show Skills</b></button>
+             </div>
+         </div>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
